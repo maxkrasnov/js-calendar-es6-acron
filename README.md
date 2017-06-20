@@ -23,7 +23,11 @@ Then in a html file (example):
     buttons: true,
     fade: true,
   });
+  
+  calendar.init();
+  
 </script>
+
 ```
 
 **All init JS Params**

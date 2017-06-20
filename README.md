@@ -1,7 +1,7 @@
 # Simple JS Calendar
 
 **SEE DEMO**
-Demo [simple-js-calendar-acron.maxkrasnov.ru] (simple-js-calendar-acron.maxkrasnov.ru)
+Demo [simple-js-calendar-acron.maxkrasnov.ru](simple-js-calendar-acron.maxkrasnov.ru)
 
 **USING**
 

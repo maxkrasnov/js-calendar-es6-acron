@@ -4,9 +4,11 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var JSCalendar = function () {
-  function JSCalendar(elementId, props) {
-    _classCallCheck(this, JSCalendar);
+var JSSCalendar = function () {
+  function JSSCalendar(elementId, props) {
+    _classCallCheck(this, JSSCalendar);
+
+    //
 
     this.default = {
       parent: 'js-calendar',
@@ -46,7 +48,7 @@ var JSCalendar = function () {
     };
   }
 
-  _createClass(JSCalendar, [{
+  _createClass(JSSCalendar, [{
     key: 'init',
     value: function init() {
       console.info('JS Calendar init [by maxkrasnov (me@maxkrasnov.ru)]');
@@ -369,5 +371,5 @@ var JSCalendar = function () {
     }
   }]);
 
-  return JSCalendar;
+  return JSSCalendar;
 }();

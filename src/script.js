@@ -1,4 +1,4 @@
-class JSCalendar {
+class JSSCalendar {
   constructor(elementId, props) {
 
     this.default = {

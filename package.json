@@ -1,0 +1,39 @@
+{
+  "name": "js-calendar-es6-acron",
+  "version": "1.0.0",
+  "description": "js plugin calendar for acron",
+  "main": "dist/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkrasnov/js-calendar-es6-acron.git"
+  },
+  "keywords": [
+    "js",
+    "es6",
+    "calendar"
+  ],
+  "author": {
+    "name": "Max Krasnov",
+    "email": "maxkrasnov@mail.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxkrasnov/js-calendar-es6-acron/issues"
+  },
+  "homepage": "https://github.com/maxkrasnov/js-calendar-es6-acron#readme"
+}

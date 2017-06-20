@@ -1,0 +1,94 @@
+$green: #000;
+$white: #fff;
+$gray: #e8e8e8;
+
+.js-calendar-default {
+  font-size: 14px;
+  font-family: Arial;
+  width: 250px;
+  text-align: center;
+  &__day {
+
+  }
+  &__month {
+    font-weight: 700;
+  }
+  &__week {
+    background: #e8e8e8;
+  }
+  &__weekday {
+    padding: 5px;
+  }
+  &__day {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    &:hover {
+      background: $gray;
+    }
+    &_selected {
+      background: $green;
+      color: $white;
+      &:hover {
+        background: $green;
+        cursor: default;
+      }
+    }
+    &_today {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  &__year {
+    position: absolute;
+    display: inline-block;
+    font-size: 8px;
+    bottom: 5px;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    opacity: .6;
+  }
+  &__header {
+    position: relative;
+    text-align: center;
+    background: $green;
+    padding: 15px;
+    color: $white;
+    word-wrap: break-word;
+  }
+  &__prev, &__next {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    padding-top: 3px;
+    cursor: pointer;
+    opacity: .7;
+    transition: opacity .4s;
+    &:hover {
+      opacity: 1;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+    }
+  }
+  &__prev {
+    float: left;
+    &:before {
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-right:5px solid $white;
+    }
+  }
+  &__next {
+    float: right;
+    &:before {
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left:5px solid $white;
+    }
+  }
+}

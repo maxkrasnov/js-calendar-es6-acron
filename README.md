@@ -1,10 +1,10 @@
 # Simple JS Calendar
 
-**SEE DEMO**
+**See demo**
 
 Demo [simple-js-calendar-acron.maxkrasnov.ru](http://www.simple-js-calendar-acron.maxkrasnov.ru)
 
-**USING**
+**Using**
 
 Add 2 files in your project:
 
@@ -47,7 +47,41 @@ Then in a html file (example):
 }
 ```
 
+**Methods**
+
+**.setWeekdays([])** - change the day of the week signatures  
+```js
+calendar.setWeekdays([
+      'Mon',
+      'Tue',
+      'Wed',
+      'Thu',
+      'Fri',
+      'Sat',
+      'Sun'
+    ])
+```
+
+**.setMonths([])** - change the months signatures 
+```js
+calendar.setMonths([
+      'Juanuary',
+      'February',
+      'Marth',
+      'April',
+      'May',
+      'June',
+      'Jule',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December'
+    ])
+```
+
 **Styles**
+
 SASS files are in the /dist/, examples scss themes are in the /dist/themes/
 
 
